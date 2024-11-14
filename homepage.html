@@ -1,0 +1,155 @@
+<html>
+<head>
+  <title>homepage.html</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .tabs {
+      flex: 0 0 250px;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .tabs h3 {
+      font-family: 'Brush Script MT', sans-serif;
+      font-size: 80px;
+      color: purple;
+    }
+
+    .tabs p {
+      font-size: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image {
+      float: left;
+      margin-right: 20px;
+    }
+
+    .text {
+      float: left;
+      margin-right: 20px;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    .socials img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .main-content p {
+      font-family: Times New Roman;
+      font-size: 30px;
+    }
+
+    .top-image {
+      width: 10000px;
+      height: 200px;
+    }
+
+    .top-logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 150px;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .tabs {
+        flex: 1 0 100%;
+        padding: 10px;
+      }
+
+      .main-content {
+        padding: 10px;
+      }
+
+      .tabs h3 {
+        font-size: 60px;
+      }
+
+      .tabs p {
+        font-size: 18px;
+      }
+
+      .socials img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .centered .text {
+        font-size: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://www.freewebheaders.com/wp-content/gallery/grass/purple-artificial-grass-lawn-top-view-background-header.jpg" class="top-image" alt="Top Image">
+  
+  <a href="homepage.html" target="_blank">
+    <img src="https://static.vecteezy.com/system/resources/previews/007/351/261/original/cg-gc-monogram-logo-calligraphic-signature-icon-wedding-logo-monogram-modern-monogram-symbol-couples-logo-for-wedding-vector.jpg" class="top-logo" alt="Logo">
+  </a>
+
+  <div class="container">
+    <div class="main-content">
+      <a href="https://ibb.co/sKvVwHy"><img src="https://i.ibb.co/zXh4RJG/image0.jpg" alt="image0" class="image" border="0" height="1000"></a>
+      <p style="font-family:Brush Script MT; sans-serif; font-size: 200px; color: purple;">Colton Gregory</p>
+      <p style="font-family:Times New Roman;">Updated 10/11/2024</p>
+      <p style="font-family:Brush Script MT; sans-serif; font-size: 150px; color: purple;">Welcome to My Page!</p>
+
+      <p style="font-family:Times New Roman; font-size: 30px;">Hello! My name is Colton Gregory and this is my WebPage. I am a current student enrolled at Northern Kentucky University. I am 20 years old, have a girlfriend, a dog, and 3 brothers with whom I am very close. Please feel free to explore more on my page and learn more about me!</p>
+      <p style="font-family:Brush Script MT; sans-serif; font-size: 150px; color: purple;">Thank You For Visiting My Page!</p>
+
+      <div class="centered">
+        <p class="text" style="font-family:Brush Script MT; sans-serif; font-size: 100px; color: purple;">Socials:</p>
+        <a href="https://www.facebook.com/colton.gregory.58" target="_blank">
+          <img src="https://i.pinimg.com/736x/93/45/27/9345279f671745db0009b67ed173fdb5.jpg" class="text" width=100 height=100>
+        </a>
+        <a href="https://www.instagram.com/coltgreg43/" target="_blank">
+          <img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" class="text" width=100 height=100>
+        </a>
+        <a href="https://www.linkedin.com/in/colton-gregory-077a85209" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" class="text" width=100 height=100>
+        </a>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <h3>Tabs</h3>
+      <p><a href="aboutme.html">About Me</a></p>
+      <p><a href="resume.html">Resume</a></p>
+      <p><a href="pic.html">Pictures</a></p>
+      <p><a href="contact.html">Contact Me</a></p>
+    </div>
+  </div>
+</body>
+</html>
